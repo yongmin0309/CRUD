@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="testform" method=POST>
+	ID : <input type="text" name="id"><br>
+		 PW : <input type="password" name="pwd"><br>
+	   소유하고있는 자동차? : 
+	   <input type="checkbox" name="car" value="scar"> 소형자
+	   <input type="checkbox" name="car" value="mcar"> 중형차
+	   <input type="checkbox" name="car" value="bcar"> 대형차 <br>
+	   	성별 : 
+	   	 <input type="radio" name="gender" value="male"> 남자
+	   	 <input type="radio" name="gender" value="female"> 여자 <br>
+	   	 
+	   	 거주하고있는 지역
+	   	 <select name="jiyak">
+	   	 	<option value="su"> 서울
+	   	 	<option value="jj">전주
+	   	 	<option value="dj"> 대전
+	   	 </select> <br>
+	   	 
+	   	  사용중인 통신사는?
+	   	 <select name="tong">
+	   	 	<option value="LG"> LG
+	   	 	<option value="KT"> KT
+	   	 	<option value="SKT"> SKT
+	   	 </select> <br>
+	   	 기타 전달하고 싶은 내용:<br/>
+	   	 <textarea rows="20" cols="20" name=:introduction></textarea><br>
+	   	 
+	   	 <input type= "submit" value="전송">
+	   	 <input type= "reset" value="취소">
+	   	 </form>
+</body>
+</html>
